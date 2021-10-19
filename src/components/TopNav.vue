@@ -32,6 +32,7 @@ export default {
   display: flex;
   flex-direction: row;
   padding: 12px;
+  border-bottom: 1px solid gray;
 }
 .left {
   margin-left: 10px;
@@ -51,7 +52,7 @@ export default {
 }
 
 .left-margin {
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .right-margin {
