@@ -50,7 +50,7 @@ export default {
   grid-template-columns: 250px 2fr;
 }
 .sidebar {
-  border-right: 1px solid gray;
+  /* border-right: 1px solid gray; */
   height: 90vh;
   display: flex;
   flex-direction: column;

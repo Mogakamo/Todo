@@ -13,7 +13,7 @@
 }
 
 .app {
-  background-color: #35374d;
+  background-color: #181820;
   min-height: 100vh;
   min-width: 100vw;
   font-size: 18px;

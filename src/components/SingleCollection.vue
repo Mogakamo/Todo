@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <div class="collection">
-      <div class="pad school-collection">
-        <i class="fas fa-chevron-left"></i>
+  <div class="collection">
+    <div class="left flex">
+      <div class="back-arrow">
+        <i class="fas fa-angle-left"></i>
       </div>
-      <h2 class="pad">School</h2>
+      <h2 class="">School</h2>
     </div>
+
+    <div class="right"><i class="fas fa-ellipsis-h"></i></div>
   </div>
 </template>
 
@@ -18,30 +20,47 @@ export default {
 <style lang="css" scoped>
 .collection {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: column; */
   align-content: center;
-  justify-items: center;
   justify-content: center;
-  padding-top: 30px;
+  position: absolute;
+  top: 125px;
+  left: 450px;
 }
 
 .right-margn {
   margin-left: 32px;
 }
 
-.pad {
-  padding: 10px;
+.flex {
+  display: flex;
 }
 
-.school-collection {
-  border: transparent;
+.pad {
   padding: 5px;
+}
+
+.back-arrow {
+  border: transparent;
   border-radius: 5px;
-  background-color: rgb(255, 147, 165);
+  background-color: rgba(99, 98, 98, 0);
   margin-right: 10px;
   padding-left: 8px;
   padding-right: 8px;
+  padding-bottom: 0;
   padding-top: 8px;
-  padding-bottom: 8px;
+}
+
+.back-arrow:hover {
+  background-color: wheat;
+}
+
+.right {
+  float: right;
+  margin-left: 600px;
+}
+
+.left {
+  flex: 1;
 }
 </style>

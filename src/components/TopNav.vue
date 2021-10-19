@@ -32,7 +32,7 @@ export default {
   display: flex;
   flex-direction: row;
   padding: 12px;
-  border-bottom: 1px solid gray;
+  /* border-bottom: 1px solid gray; */
 }
 .left {
   margin-left: 10px;
