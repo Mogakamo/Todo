@@ -3,7 +3,7 @@
     <div class="sidebar">
       <h4 class="sidebar_header">Collection</h4>
       <ul>
-        <li class="flex">
+        <li class="flex list-styling">
           <div class="school-collection"><i class="fas fa-book-open"></i></div>
           <span class="left-margin">School</span>
         </li>
@@ -52,19 +52,43 @@ export default {
 
 .sidebar_header {
   padding: 15px;
-  align-self: center;
+  align-content: center;
+  background-color: rgb(22, 32, 88);
+  width: 100%;
+  border: transparent;
+  border-radius: 15px;
+}
+
+.sidebar_header:hover {
+  background-color: rgb(13, 38, 94);
 }
 
 ul li {
   padding: 15px;
   align-self: center;
   justify-self: center;
+  background-color: rgb(21, 15, 73);
+  margin-top: 5px;
+  border: transparent;
+  border-radius: 15px;
+  width: 100%;
+}
+
+ul li:hover {
+  background-color: rgb(91, 60, 179);
 }
 
 .flex {
   display: flex;
   flex-direction: row;
 }
+
+/* .list-styling {
+  background-color: teal;
+  border: transparent;
+  border-radius: 15px;
+  margin-top: 3px;
+} */
 
 .school-collection {
   border: transparent;
