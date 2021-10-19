@@ -1,5 +1,7 @@
 <template>
-  <div class="todo-wrapper"></div>
+  <div class="todo-wrapper">
+    <h1>Todo App</h1>
+  </div>
 </template>
 
 <script>
