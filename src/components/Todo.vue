@@ -23,13 +23,20 @@
         </li>
       </ul>
     </div>
-    <div class="content"></div>
+    <div class="content">
+      <SingleCollection />
+    </div>
   </div>
 </template>
 
 <script>
+import SingleCollection from "@/components/SingleCollection.vue";
+
 export default {
   name: "Todo",
+  components: {
+    SingleCollection,
+  },
   data() {
     return {};
   },
