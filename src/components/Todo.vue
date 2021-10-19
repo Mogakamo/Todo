@@ -1,7 +1,5 @@
 <template>
-  <div class="todo-wrapper">
-    <h1>Todo App</h1>
-  </div>
+  <div class="todo-wrapper">Todo app</div>
 </template>
 
 <script>
@@ -13,4 +11,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped>
+.todo-wrapper {
+  color: white;
+}
+</style>
