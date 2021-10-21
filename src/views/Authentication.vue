@@ -3,7 +3,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Authentication",
+};
 </script>
 
 <style></style>
