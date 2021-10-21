@@ -8,6 +8,7 @@ import store from "./store";
 import firebase from "firebase/compat/app";
 import { firebaseConfig } from "./firebase/firebase-config";
 import "firebase/compat/firestore";
+import "./index.css";
 
 //initialize firebase
 firebase.initializeApp(firebaseConfig);
