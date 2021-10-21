@@ -20,6 +20,9 @@
 </template>
 
 <script>
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+
 export default {
   name: "Login",
   data() {
@@ -29,7 +32,18 @@ export default {
     };
   },
   methods: {
-    login() {},
+    login() {
+      firebase
+        .auth()
+        .signInWithEmailAndPassword(this.email, this.password)
+        .then(() => {
+          alert("Login successfull!!!");
+          this.$router.push("/");
+        })
+        .catch((error) => {
+          alert(error.message);
+        });
+    },
   },
 };
 </script>
