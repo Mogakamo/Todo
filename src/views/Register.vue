@@ -38,7 +38,7 @@ export default {
         .createUserWithEmailAndPassword(this.email, this.password)
         .then(() => {
           alert("Successfully registered. Please proceed to login!");
-          this.$router.push("/");
+          this.$router.push("/login");
         })
         .catch((error) => {
           alert(error.message);
