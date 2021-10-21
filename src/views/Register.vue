@@ -24,7 +24,7 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 
 export default {
-  name: "Authentication",
+  name: "Register",
   data() {
     return {
       email: "",
