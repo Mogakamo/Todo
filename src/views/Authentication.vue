@@ -1,7 +1,7 @@
 <template>
   <div class="auth-wrapper">
     <form @submit.prevent="login">
-      <h1>Login</h1>
+      <h1>Register</h1>
       <input
         type="text"
         placeholder="Email Address..."
@@ -14,7 +14,7 @@
         placeholder="password.."
         required
       />
-      <input type="submit" value="Login" />
+      <input type="submit" value="Register" />
     </form>
   </div>
 </template>
